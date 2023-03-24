@@ -5,7 +5,7 @@ public extension View {
     /// Sets the bottom padding of a view
     ///
     /// Controls the padding at the bottom of any
-    /// SwiftUI view
+    /// SwiftUI view.
     ///
     /// - Parameter howMuch: How much padding
     /// - Returns: A view with the padding applied
@@ -16,7 +16,7 @@ public extension View {
     /// Sets the top padding of a view
     ///
     /// Controls the padding at the top of any
-    /// SwiftUI view
+    /// SwiftUI view.
     ///
     /// - Parameter howMuch: How much padding
     /// - Returns: A view with the padding applied
@@ -27,7 +27,7 @@ public extension View {
     /// Sets the padding of a view
     ///
     /// Controls the padding at that gets applied
-    /// to all sides of the SwiftUI view
+    /// to all sides of the SwiftUI view.
     ///
     /// - Parameter howMuch: How much padding
     /// - Returns: A view with the padding applied
@@ -37,8 +37,8 @@ public extension View {
 
     /// Sets the trailing padding of a view
     ///
-    /// Controls the padding at the trailing of any
-    /// SwiftUI view
+    /// Controls the padding at the trailing edge of any
+    /// SwiftUI view.
     ///
     /// - Parameter howMuch: How much padding
     /// - Returns: A view with the padding applied
@@ -48,8 +48,8 @@ public extension View {
 
     /// Sets the leading padding of a view
     ///
-    /// Controls the padding at the leading of any
-    /// SwiftUI view
+    /// Controls the padding at the leading edge of any
+    /// SwiftUI view.
     ///
     /// - Parameter howMuch: How much padding
     /// - Returns: A view with the padding applied
@@ -60,7 +60,8 @@ public extension View {
     /// Sets the horizontal padding of a view
     ///
     /// Controls the padding at the horizontal of any
-    /// SwiftUI view
+    /// SwiftUI view. This padding is on both sides of
+    /// the view.
     ///
     /// - Parameter howMuch: How much padding
     /// - Returns: A view with the padding applied
@@ -71,7 +72,8 @@ public extension View {
     /// Sets the vertical padding of a view
     ///
     /// Controls the padding at the vertical of any
-    /// SwiftUI view
+    /// SwiftUI view. This padding is on both sides
+    /// of the view.
     ///
     /// - Parameter howMuch: How much padding
     /// - Returns: A view with the padding applied
