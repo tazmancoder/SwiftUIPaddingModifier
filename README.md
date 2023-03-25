@@ -1,5 +1,5 @@
 
-![ios](https://img.shields.io/badge/iOS-13.0-blue) ![macOS](https://img.shields.io/badge/macOS-10.15-gold)
+![ios](https://img.shields.io/badge/iOS-13.0-blue)   ![macOS](https://img.shields.io/badge/macOS-10.15-gold)
 
 ----
 
@@ -55,12 +55,19 @@ var body: some View {
 
 The code is packaged as a framework. You can install manually (by copying the files in the `Sources` directory) or using Swift Package Manager (**preferred**)
 
-### Dependency to another SPM
+### Dependency For Another Swift Package
 To install using Swift Package Manager, add this to the `dependencies` section of your `Package.swift` file:
 `.package(url: "https://github.com/tazmancoder/SwiftUIPaddingModifier.git", .upToNextMinor(from: "1.0.0"))`
 
 ### Xcode project
-To install this into your Xcode project, goto your project folder, tap Package Dependencies, under Packages click the plus button and enter following in the search bar: `https://github.com/tazmancoder/SwiftUIPaddingModifier.git`. Set `Dependency Rule` to `Up to Next Major Version` then tap `Add Package` button. Thats it this package will then be installed and ready to use.
+To install this into your Xcode project, follow the instructions below:
+
+1. Goto your project folder, tap Package Dependencies, under Packages click the plus button
+2. Enter this in searchbar - `https://github.com/tazmancoder/SwiftUIPaddingModifier.git`. 
+3. Set `Dependency Rule` to `Up to Next Major Version`
+4. Tap `Add Package` button.
+
+Thats it this package will then be installed and ready to use.
 
 > Note: The package requires iOS v13.0+ or macOS v10.15+
 
