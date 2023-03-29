@@ -1,5 +1,11 @@
 
-![ios](https://img.shields.io/badge/iOS-13.0-blue)   ![macOS](https://img.shields.io/badge/macOS-10.15-gold)
+# SwiftUIPaddingModifier
+
+<p>
+    <img src="https://img.shields.io/badge/iOS-13.0+-blue.svg" />
+    <img src="https://img.shields.io/badge/macOS-10.15-gold.svg" />
+    <img src="https://img.shields.io/badge/Swift-5.0-ff69b4.svg" />
+</p>
 
 ----
 
@@ -8,8 +14,6 @@ SwiftUI view. The modifiers have an argument called `howMuch` if left
 out then the modifier defaults to 10
 
 ----
-
-# SwiftUIPaddingModifier
 
 ## Features
 
